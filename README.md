@@ -6,7 +6,7 @@ check the version of the java installed using command
 `java --version
 `
 
-run the below commands at the root level of the repository `endpoint_coding_challenge`
+run the below commands at the root level of the repository
 
 compile the code using command
 `javac FileSystem.java`
