@@ -1,12 +1,12 @@
 # endpoint_coding_challenge
 
-make sure Java 17+ installed
+make sure Java 17+ is installed
 
 check the version of the java installed using command
 `java --version
 `
 
-run the below commands at the root of the repository `endpoint_coding_challenge`
+run the below commands at the root level of the repository `endpoint_coding_challenge`
 
 compile the code using command
 `javac FileSystem.java`

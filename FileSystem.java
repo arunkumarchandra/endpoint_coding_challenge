@@ -72,11 +72,11 @@ public class FileSystem {
             return;
         }
         final var sourceParent = getParent(root, sourceNode);
-        // detach source from source parent
+        // detach source node from source parent
         if (sourceParent != null) {
             sourceParent.children.remove(sourceNode);
         }
-        // add source node as children to target node
+        // add source node as child to target node
         targetNode.children.add(sourceNode);
         System.out.println("MOVE " + path);
     }
